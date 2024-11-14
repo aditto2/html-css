@@ -40,6 +40,7 @@
     color: aliceblue;
     gap: 200px;
     margin-bottom: 50px;
+    align-items: center;
 }
 
 .banner-title {
@@ -67,4 +68,37 @@
 .banner-img img {
     width: 300px;
     height: 300px;
+}
+
+/* about-section */
+
+.about-container {
+    display: flex;
+    text-align: left;
+    gap: 300px;
+    padding: 30px 150px;
+}
+
+
+.about>h3 {
+    font-size: 75px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.about-img img {
+    width: 300px;
+}
+
+.about-title {
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.about-paragraph {
+    color: darkgray;
+    padding-bottom: 20px;
+    font-size: large;
+    font-weight: 200;
 }
