@@ -36,7 +36,8 @@
 .banner-container {
     display: flex;
     padding: 150px 100px;
-    background-color: black;
+    background-image: url("../images/background.png"), linear-gradient(45deg, rgb(8, 8, 8), rgb(53, 53, 53));
+    /* height: 100vh; */
     color: aliceblue;
     gap: 200px;
     margin-bottom: 50px;
@@ -57,12 +58,18 @@
 
 .btn-primary {
     padding: 15px 20px;
-    border: 0;
+    border: none;
     border-radius: 5px;
     color: aliceblue;
     font-size: medium;
     font-weight: 200;
     background-color: deeppink;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: orangered;
+    color: whitesmoke;
 }
 
 .banner-img img {
@@ -145,4 +152,70 @@
     padding: 10px 30px 30px;
     font-size: large;
     font-weight: 200;
+}
+
+.btn {
+    background-color: black;
+}
+
+/* footer section */
+
+footer {
+
+    background-color: rgb(46, 44, 44);
+    color: aliceblue;
+    text-align: center;
+    padding: 50px 100px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.footer-type img {
+    width: 150px;
+    padding-bottom: 20px;
+}
+
+.footer-type {
+    padding: 20px;
+    text-align: justify;
+    /* border: 10px wheat solid; */
+}
+
+.type-1 {
+    /* padding-right: 100px; */
+}
+
+.type-2 h3 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.type-2 a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.type-3 h3 {
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.type-3 p {
+    padding-bottom: 5px;
+}
+
+.type-4 h3 {
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.type-4 p {
+    padding-bottom: 10px;
 }
