@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+}
+
+
+/* heading section */
+
+.menu-container{
+    background-color: rgb(72, 70, 70);
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo > img{
+    /* height: 50px ; */
+    width: 150px;
+}
+
+.menu{
+    font-size: 23px;
+    gap: 40px;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    cursor: pointer;
+}
+
+.menu li:hover{
+    color: darkkhaki;
+}
+
+/* banner section */
+
+.banner-container{
+    display: flex;
+    padding: 200px 100px;
+    justify-content: space-between;
+}
+
+.banner-title{
+    font-size: 80px;
+    font-weight: 100;
+}
+
+.banner-img img{
+    width: 300px;
+    height: 300px;
+}
