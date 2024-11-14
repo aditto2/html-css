@@ -102,3 +102,47 @@
     font-size: large;
     font-weight: 200;
 }
+
+/* service-section */
+
+.service {
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 100px 150px 50px;
+}
+
+.service>h3 {
+    font-size: 75px;
+    font-weight: 700;
+
+}
+
+.service-container {
+    display: flex;
+    gap: 80px;
+    padding-top: 40px;
+}
+
+.types img {
+    width: 100px;
+    padding-bottom: 10px;
+}
+
+.types {
+    padding: 20px 20px 30px;
+    border: 0px;
+    box-shadow: 2px 2px 50px 2px white;
+    border-radius: 10px;
+}
+
+.service-title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.service-paragraph {
+    padding: 10px 30px 30px;
+    font-size: large;
+    font-weight: 200;
+}
