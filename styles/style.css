@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
 }
 
 
 /* heading section */
 
-.menu-container{
+.menu-container {
     background-color: rgb(72, 70, 70);
     padding: 20px;
     color: white;
@@ -13,12 +13,12 @@
     justify-content: space-around;
 }
 
-.logo > img{
+.logo>img {
     /* height: 50px ; */
     width: 150px;
 }
 
-.menu{
+.menu {
     font-size: 23px;
     gap: 40px;
     list-style: none;
@@ -27,24 +27,44 @@
     cursor: pointer;
 }
 
-.menu li:hover{
+.menu li:hover {
     color: darkkhaki;
 }
 
 /* banner section */
 
-.banner-container{
+.banner-container {
     display: flex;
-    padding: 200px 100px;
-    justify-content: space-between;
+    padding: 150px 100px;
+    background-color: black;
+    color: aliceblue;
+    gap: 200px;
+    margin-bottom: 50px;
 }
 
-.banner-title{
-    font-size: 80px;
-    font-weight: 100;
+.banner-title {
+    font-size: 75px;
+    font-weight: 700;
+    padding-bottom: 20px;
 }
 
-.banner-img img{
+.banner-paragraph {
+    padding-bottom: 20px;
+    font-size: large;
+    font-weight: 200;
+}
+
+.btn-primary {
+    padding: 15px 20px;
+    border: 0;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: medium;
+    font-weight: 200;
+    background-color: deeppink;
+}
+
+.banner-img img {
     width: 300px;
     height: 300px;
 }
